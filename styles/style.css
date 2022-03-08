@@ -310,7 +310,7 @@
 
 .membership {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 140px;
   background-color: #f2f2f2;
 }
 
@@ -321,7 +321,7 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .membership__steps {
@@ -329,6 +329,8 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .step {
@@ -368,7 +370,7 @@
   font-weight: 500;
   z-index: 1;
   max-width: 394px;
-  margin-right: 120px;
+  margin: 0 120px 0 0;
 }
 
 .about__content {
@@ -381,6 +383,7 @@
 
 .about__paragraph {
   margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .about__paragraph:nth-of-type(3n) {
@@ -404,19 +407,22 @@
   padding: 60px 102px 60px 80px;
 }
 
-.footer__column {
+.footer__columns {
   display: flex;
-  justify-content: space-between;
-  min-height: 224px;
+}
+
+.footer__column {
+
 }
 
 .footer__column_content_hours {
   color: white;
-  margin-left: 650px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   color: white;
+  margin-left: 100px;
 }
 
 .footer__logo {
@@ -435,6 +441,7 @@
 }
 
 .footer__column-heading {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -457,4 +464,5 @@
 
 .footer__copyright {
   color: white;
+  margin: 0;
 }
